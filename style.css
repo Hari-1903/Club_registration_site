@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #f8f9fa;
+}
+
+.heading {
+  font-weight: 700;
+  color: #f8f9fa;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin: 0 0 7.2rem 3.2rem;
+  margin-bottom: 8.6rem;
+}
+
+.about-section {
+  background-color: rgba(8, 0, 255, 0.052);
+  padding-top: 1.2rem;
+  margin: 0 3.2rem 0 3.2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  display: inline-block;
+  border-bottom: rgb(255, 255, 255) 2px solid;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f1f3f5;
+  text-transform: uppercase;
+  padding-top: 1.2rem;
+  margin: 0 0 0 3.2rem;
+  letter-spacing: 0.75px;
+}
+
+.smallheading {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #a5d8ff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding-left: 3.2rem;
+  letter-spacing: 0.75px;
+}
+
+.Landing-Page {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg {
+  height: 100%;
+  background-image: linear-gradient(
+      -45deg,
+      rgba(36, 37, 39, 0.758),
+      rgba(144, 144, 144, 0.548)
+    ),
+    url(Images/Bgimage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+  height: 100vh;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  height: 18.343rem;
+  width: 17.8rem;
+  transition: all 0.4s;
+  filter: grayscale(0%);
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.feature {
+  padding: 2rem;
+}
+
+.feature-icon {
+  color: #f8f9fa;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #3bc9db;
+  margin-bottom: 2.4rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.feature-text {
+  color: white;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0rem auto;
+  padding-bottom: 5rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 3.2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about-text {
+  font-size: 2rem;
+  line-height: 1.8;
+  padding: 1rem 3.2rem;
+  color: #f8f9fa;
+  margin-bottom: 0rem;
+}
+
+.Secondary-Page {
+  margin-top: 5rem;
+}
+
+/* CALL TO ACTON */
+
+.section-cta {
+  padding: 2rem 0 1rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(16, 152, 173, 0.75),
+    rgba(34, 184, 207, 0.75)
+  );
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.cta .heading {
+  color: inherit;
+  padding-left: 5.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(16, 152, 173, 0.04),
+      rgba(34, 184, 207, 0.055)
+    ),
+    url("Images/Recruitment.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #095d6c;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #555;
+}
