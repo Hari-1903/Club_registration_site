@@ -1,4 +1,2 @@
-# Sample-Website
-This is a basic website (Club based) created for testing out skills in HTML and CSS. This website is deployed in the internet.
-https://samplewebsite-hari.netlify.app/
-Created and Maintained by Harinarayananan R
+# Club_Registration_Site
+This website can act as a registration hub for new members, and there is potential for expansion to incorporate a range of additional features in the future.
